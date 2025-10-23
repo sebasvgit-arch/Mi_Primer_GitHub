@@ -11,7 +11,7 @@ app = FastAPI(
 @app.get("/")
 async def root():
     return {
-        "mensaje": "¡Bienvenido a la API de Tareas!",
+        "mensaje": "¡Bienvenido a la API de Tareas sebastian londono",
         "version": "1.0.0",
         "endpoints": ["/docs", "/tareas"]
     }
